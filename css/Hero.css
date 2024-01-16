@@ -1,4 +1,12 @@
-.heroImg{
-    width: 500px;
+.heroImg {
+    width: 270px;
     height: auto;
+    margin: auto;
+}
+
+/* Adjust for screens larger than 500 pixels */
+@media (min-width: 501px) {
+    .heroImg {
+        width: 500px;
+    }
 }
